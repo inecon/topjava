@@ -22,7 +22,7 @@ public class UserMealsUtil {
 
         List<UserMealWithExceed> userMealWithExceedList = getFilteredWithExceeded(mealList, LocalTime.of(7, 0), LocalTime.of(12, 0), 2000);
 
-        //for checking, DELETE before release
+        //for test, DELETE before release
         userMealWithExceedList.forEach(System.out::println);
     }
 
